@@ -21,4 +21,9 @@ describe '#get_middle' do
         expect(get_middle("middle")).to eq("dd")
     end    
 
+    it "returns t when input is testing" do
+        expect(get_middle("testing")).to eq("t")
+    end    
+
+
 end
