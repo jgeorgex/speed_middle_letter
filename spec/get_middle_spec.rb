@@ -28,6 +28,4 @@ describe '#get_middle' do
     it "returns st when input is Supercalifragilisticexpialidocious" do
         expect(get_middle("Supercalifragilisticexpialidocious")).to eq("st")
     end    
-
-
 end
